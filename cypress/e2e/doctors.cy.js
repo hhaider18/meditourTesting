@@ -37,6 +37,34 @@ describe("Signup Page Test", () => {
     cy.contains("Clinic").should("be.visible").click();
     cy.wait(2000);
     cy.contains("Continue").should("be.visible").click();
+    cy.wait(2000);
+    cy.contains("Payment").should("be.visible"); // Ensure section is visible
+    cy.contains("International").should("be.visible").click();
+    cy.contains("PAYMENT").should("be.visible").click();
+    cy.wait(2000);
+    //CARD PAYMENT
+    cy.url().should("include", "/paymentDetail");
+    cy.get('[data-testid="card"]', { timeout: 20000 }).should(
+      "have.class",
+      "p-Tab--selected"
+    );
+    cy.contains("Card number").should("be.visible");
+    cy.get('input[placeholder="1234 1234 1234 1234"]').type(
+      "5555 5555 5555 4444",
+      {
+        delay: 50,
+      }
+    );
+    cy.contains("Expiration date").should("be.visible");
+    cy.get('input[placeholder="MM / YY"]').type("02 / 22", {
+      delay: 50,
+    });
+    cy.contains("Security code").should("be.visible");
+    cy.get('input[placeholder="CVC"]').type("123", {
+      delay: 50,
+    });
+    cy.contains("Country").should("be.visible");
+    cy.get("#country").select("Pakistan");
     // cy.get("body").debug();
   });
 });
