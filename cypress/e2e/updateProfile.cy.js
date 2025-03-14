@@ -28,8 +28,9 @@ describe("Button Click Test", () => {
     waitFor();
     cy.contains("Profile").should("be.visible").click();
     cy.url().should("include", "/laboratory/LaborteryProfile");
-    cy.xpath(
-      "/html/body/div[2]/div[1]/div/div[2]/div[2]/div[2]/div[2]/svg"
+    waitFor();
+    cy.get(
+      "/html/body/div[2]/div[1]/div/div[2]/div[2]/div[2]/div[2]/svg/path"
     ).click();
   });
 });
