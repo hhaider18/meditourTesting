@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-20T08:38:19.383Z",
+    "end": "2025-03-20T08:39:11.312Z",
+    "duration": 51929,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "90d68b77-a148-4300-837e-6d656f6ae5f1",
+      "title": "",
+      "fullFile": "cypress\\e2e\\CheckUserLoginReponse.cy.js",
+      "file": "cypress\\e2e\\CheckUserLoginReponse.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c53e6ec2-70e7-43c8-86cb-9a245868ed84",
+          "title": "Button Click Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "clicks the treatment button and submits the form",
+              "fullTitle": "Button Click Test clicks the treatment button and submits the form",
+              "timedOut": null,
+              "duration": 48972,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "// Visit the page and debug to check initial state\ncy.visit(\"https://staging.meditour.global/\");\n// cy.pause(); // DEBUG: Check if the page is fully loaded\nwaitFor();\ncy.contains(\"button\", \"Update\").should(\"be.visible\").click();\nwaitFor();\ncy.contains(\"Join As a Provider\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/joinVender\");\nwaitFor();\ncy.contains(\"Doctor\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/doctor/login\");\nwaitFor();\ncy.contains(\"Back to Home\").should(\"be.visible\").click();\nwaitFor();\ncy.contains(\"Services\").should(\"be.visible\").click();\nwaitFor();\ncy.contains(\"Travel and Tourism\").should(\"be.visible\").click();\nwaitFor();\ncy.contains(\"Travel Agency\").should(\"be.visible\").click();\nwaitFor();\ncy.contains(\"Dream Package\").should(\"be.visible\").click();\nwaitFor();\ncy.contains(\"Tour Details\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/user/login\");\ncy.get('input[placeholder=\"Email\"]').type(\"hussain14.cs@gmail.com\", {\n  delay: 100\n});\ncy.get('input[placeholder=\"Password\"]').type(\"Admin@123\", {\n  delay: 100\n});\n// Debug before clicking the eye icon\ncy.get('input[placeholder=\"Password\"]').parent().find(\"svg\").debug(); // DEBUG: Check if the eye icon selector is correct\ncy.get('input[placeholder=\"Password\"]').parent().find(\"svg\").click();\ncy.contains(\"Login\").click();\n// cy.pause(); // DEBUG: Verify if login was successful\nwaitFor();\n// // Ensure successful login\n// // cy.url().should(\"include\", \"/user/login\");\n// Cypress.on(\"uncaught:exception\", (err, runnable) => {\n//   console.log(\"Ignoring error:\", err.message);\n//   return false; // Cypress test ko fail hone se rokhne ke liye\n// });\ncy.contains(\"Hussain\").should(\"be.visible\").click();\ncy.wait(1000);\ncy.contains(\"Order History\").click();\ncy.wait(1000);\ncy.contains(\"Rizvi Laboratories\").should(\"be.visible\");\ncy.wait(1000);\ncy.contains(\"View Details\").should(\"be.visible\").click();\ncy.wait(1000);\n// Wait for some time to let the PDF open\n// cy.wait(1000); // Adjust time based on PDF loading\n// // Visit the site again\n// cy.visit(\"https://staging.meditour.global/\");",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<p.navBarr_join__Xa7ir>' to be 'visible'\n\nThis element `<p.navBarr_join__Xa7ir>` is not visible because it has CSS property: `display: none`",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<p.navBarr_join__Xa7ir>' to be 'visible'\n\nThis element `<p.navBarr_join__Xa7ir>` is not visible because it has CSS property: `display: none`\n    at Context.eval (webpack://cypress-automation/./cypress/e2e/CheckUserLoginReponse.cy.js:10:38)",
+                "diff": null
+              },
+              "uuid": "608a8d67-e55c-4ffd-9d98-b7c74c238154",
+              "parentUUID": "c53e6ec2-70e7-43c8-86cb-9a245868ed84",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "608a8d67-e55c-4ffd-9d98-b7c74c238154"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 48972,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

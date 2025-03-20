@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-20T08:40:06.213Z",
+    "end": "2025-03-20T08:41:03.537Z",
+    "duration": 57324,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8780361c-5e9d-49d5-b266-c903fcdd87e8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\LabAddBranch.cy.js",
+      "file": "cypress\\e2e\\LabAddBranch.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b5d8c41c-088c-4e5c-805a-d3e7b944b262",
+          "title": "Signup Page Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should load the signup page",
+              "fullTitle": "Signup Page Test should load the signup page",
+              "timedOut": null,
+              "duration": 54298,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://staging.meditour.global/\");\n// cy.pause(); // DEBUG: Check if the page is fully loaded\nwaitFor();\ncy.contains(\"button\", \"Update\").should(\"be.visible\").click();\nwaitFor();\ncy.contains(\"Join As a Provider\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/joinVender\");\nwaitFor();\ncy.contains(\"Laboratory\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/laboratory/login\");\nwaitFor();\ncy.get('input[placeholder=\"Email\"]').type(\"derawen751@fuzitea.com\", {\n  delay: 50\n});\ncy.get('input[placeholder=\"Password\"]').type(\"Admin@123\", {\n  delay: 50\n});\n// Debug before clicking the eye icon\ncy.get('input[placeholder=\"Password\"]').parent().find(\"svg\").debug(); // DEBUG: Check if the eye icon selector is correct\ncy.get('input[placeholder=\"Password\"]').parent().find(\"svg\").click();\ncy.get(\"button\").contains(\"Login\").click();\nwaitFor();\ncy.contains(\"Manage Branches\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/laboratory/branches\");\nwaitFor();\ncy.get(\"button\").contains(\"+ Add Branch\").click();\ncy.get('input[placeholder=\"Branch Code\"]').type(\"Branch-002\", {\n  delay: 50\n});\ncy.get('input[placeholder=\"Branch Address*\"]').click().type(\"Johar Town\", {\n  delay: 200\n});\n// ✅ Ensure at least one suggestion is available before clicking\ncy.get(\".pac-item\", {\n  timeout: 8000\n}).should(\"have.length.at.least\", 1);\n// ✅ Now, click the second suggestion (index 1)\ncy.get(\".pac-item\").eq(1).click({\n  force: true\n});\ncy.get('input[placeholder=\"Phone\"]').type(\"+923226624682\", {\n  delay: 50\n});\nwaitFor();\ncy.get('input[placeholder=\"Phone\"]').type(\"hussain44@gmail.com\", {\n  delay: 50\n});\ncy.contains(\"Save\").click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<p.navBarr_join__Xa7ir>' to be 'visible'\n\nThis element `<p.navBarr_join__Xa7ir>` is not visible because it has CSS property: `display: none`",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<p.navBarr_join__Xa7ir>' to be 'visible'\n\nThis element `<p.navBarr_join__Xa7ir>` is not visible because it has CSS property: `display: none`\n    at Context.eval (webpack://cypress-automation/./cypress/e2e/LabAddBranch.cy.js:9:38)",
+                "diff": null
+              },
+              "uuid": "4c37e151-2e83-4a92-8fc6-ca6be95fa84d",
+              "parentUUID": "b5d8c41c-088c-4e5c-805a-d3e7b944b262",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "4c37e151-2e83-4a92-8fc6-ca6be95fa84d"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 54298,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

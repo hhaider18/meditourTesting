@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-20T08:39:13.511Z",
+    "end": "2025-03-20T08:40:04.390Z",
+    "duration": 50879,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "abfdc7fd-7394-4f7a-96bf-de44714308b4",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Hotel.cy.js",
+      "file": "cypress\\e2e\\Hotel.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "573e4a76-d07a-40fb-afb4-4431b87efefc",
+          "title": "Signup Page Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should load the signup page",
+              "fullTitle": "Signup Page Test should load the signup page",
+              "timedOut": null,
+              "duration": 47306,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://meditour.global\");\n// cy.pause(); // DEBUG: Check if the page is fully loaded\ncy.contains(\"Join As a Provider\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/joinVender\");\ncy.contains(\"Hotel\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/hotel/login\");\ncy.get('input[placeholder=\"Email\"]').type(\"hussain14.cs@gmail.com\", {\n  delay: 50\n});\ncy.get('input[placeholder=\"Password\"]').type(\"Admin@123\", {\n  delay: 50\n});\n// Debug before clicking the eye icon\ncy.get('input[placeholder=\"Password\"]').parent().find(\"svg\").debug(); // DEBUG: Check if the eye icon selector is correct\ncy.get('input[placeholder=\"Password\"]').parent().find(\"svg\").click();\ncy.get(\"button\").contains(\"Login\").click();\ncy.wait(2000);\ncy.contains(\"Property\").should(\"be.visible\").click();\ncy.url().should(\"include\", \"/Property\");\ncy.wait(2000);\ncy.get(\"button\").contains(\"+ Add\").click();\ncy.get(\"button\").contains(\"Get Started\").click();\ncy.contains(\"House\").should(\"be.visible\").click();\ncy.contains(\"Camp\").click();\ncy.contains(\"Container\").should(\"be.visible\").click();\ncy.get('input[placeholder=\"Property Name\"]').type(\"Nasla Container\", {\n  delay: 50\n});\ncy.get('input[placeholder=\"Contact Number\"]').type(\"03226624682\", {\n  delay: 50\n});\ncy.get('input[placeholder=\"Search location...\"]').type(\"Johar Town\", {\n  delay: 200\n});\n// Wait until suggestions appear\ncy.wait(2000);\n// Select first suggestion\ncy.get(\".pac-item\").first().click();\n// Force blur to trigger change event\n// cy.get('input[placeholder=\"Address\"]').blur();\n// Verify the field is now filled\ncy.get('input[placeholder=\"Address\"]').should(\"not.have.value\", \"\");\ncy.contains(\"How many people can stay here?\").should(\"be.visible\");\n// Beds wale `+` button ko click karega\ncy.contains(\"Beds\").parent() // Parent container locate karega\n.find(\"button\") // Us container ke andar button dhundega\n.contains(\"+\") // \"+\" wale button ko locate karega\n.as(\"bedsPlus\");\nfor (let i = 0; i < 6; i++) {\n  cy.get(\"@bedsPlus\").click();\n}\n// Guests wale `+` button ko click karega\ncy.contains(\"Guests\").parent() // Guests ka parent locate karega\n.find(\"button\") // Uske andar button locate karega\n.contains(\"+\").as(\"guestsPlus\");\nfor (let i = 0; i < 6; i++) {\n  cy.get(\"@guestsPlus\").click();\n}\ncy.contains(\"Bathrooms\").parent() // Bathroom ka parent locate karega\n.find(\"button\") // Uske andar button locate karega\n.contains(\"+\").as(\"bathroomsPlus\");\nfor (let i = 0; i < 1; i++) {\n  cy.get(\"@bathroomsPlus\").click();\n}\ncy.contains(\"p\", \"Attached\") // \"Attached\" likha hua p tag dhundho\n.parent() // Uska parent locate karo (jo radio button wrap karta hai)\n.click(); // Click karo (isse radio select ho jayega)\ncy.get('input[placeholder=\"Property Name\"]').type(\"Nasla Container\", {\n  delay: 50\n});\n// cy.contains(\"Some details about your property...\")\n//   .parent()\n//   .find(\"textarea\")\n//   .type(\"Located in the heart of the city with scenic views.\", {\n//     delay: 50,\n//   });\ncy.contains(\"Next\").click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<p.navBarr_join__Xa7ir>' to be 'visible'\n\nThis element `<p.navBarr_join__Xa7ir>` is not visible because it has CSS property: `display: none`",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<p.navBarr_join__Xa7ir>' to be 'visible'\n\nThis element `<p.navBarr_join__Xa7ir>` is not visible because it has CSS property: `display: none`\n    at Context.eval (webpack://cypress-automation/./cypress/e2e/Hotel.cy.js:6:38)",
+                "diff": null
+              },
+              "uuid": "15ad5e7d-fee5-41af-9114-526a73a161a6",
+              "parentUUID": "573e4a76-d07a-40fb-afb4-4431b87efefc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "15ad5e7d-fee5-41af-9114-526a73a161a6"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 47306,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
