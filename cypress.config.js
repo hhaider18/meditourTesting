@@ -9,8 +9,6 @@ module.exports = defineConfig({
     viewportHeight: 768, // Height in pixels
   },
 });
-const { defineConfig } = require("cypress");
-
 module.exports = defineConfig({
   reporter: "mochawesome",
   reporterOptions: {
