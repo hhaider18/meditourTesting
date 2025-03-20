@@ -9,6 +9,7 @@ describe("Button Click Test", () => {
     waitFor();
     cy.contains("Join As a Provider").should("be.visible").click();
     cy.url().should("include", "/joinVender");
+    waitFor();
     cy.contains("Doctor").should("be.visible").click();
     cy.url().should("include", "/doctor/login");
     waitFor();
@@ -20,7 +21,7 @@ describe("Button Click Test", () => {
     waitFor();
     cy.contains("Travel Agency").should("be.visible").click();
     waitFor();
-    cy.contains("New tours").should("be.visible").click();
+    cy.contains("Dream Package").should("be.visible").click();
     waitFor();
     cy.contains("Tour Details").should("be.visible").click();
 
@@ -39,12 +40,12 @@ describe("Button Click Test", () => {
     cy.contains("Login").click();
     // cy.pause(); // DEBUG: Verify if login was successful
     waitFor();
-    // Ensure successful login
-    // cy.url().should("include", "/user/login");
-    Cypress.on("uncaught:exception", (err, runnable) => {
-      console.log("Ignoring error:", err.message);
-      return false; // Cypress test ko fail hone se rokhne ke liye
-    });
+    // // Ensure successful login
+    // // cy.url().should("include", "/user/login");
+    // Cypress.on("uncaught:exception", (err, runnable) => {
+    //   console.log("Ignoring error:", err.message);
+    //   return false; // Cypress test ko fail hone se rokhne ke liye
+    // });
 
     cy.contains("Hussain").should("be.visible").click();
     cy.wait(1000);
