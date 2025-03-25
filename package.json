@@ -9,7 +9,7 @@
   "author": "Hussain Haider",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^14.0.3",
+    "cypress": "^14.2.0",
     "cypress-xpath": "^2.0.1",
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^5.0.0",

@@ -29,10 +29,15 @@ describe("Button Click Test", () => {
     cy.wait(1000);
     cy.contains("Order History").click();
     cy.wait(1000);
-    cy.contains("Rizvi Laboratories").should("be.visible");
-    cy.wait(1000);
-    cy.contains("View Details").should("be.visible").click();
-    cy.wait(1000);
+    // cy.contains("Rizvi Laboratories").should("be.visible");
+    // cy.wait(1000);
+    // cy.contains("View Details").should("be.visible").click();
+    // cy.wait(1000);
+    // Select the second lab using nth-of-type or eq() method
+    cy.contains(".orderHistory_orderTitle__by9Rl", "Rizvi Laboratories") // Find the lab by name
+      .parents(".orderHistory_orderCard__0lN3S") // Go to the parent card
+      .find(".orderHistory_detailsButton__iCMBa") // Find the "View Details" button
+      .click();
     cy.contains("Download Result").should("be.visible").click();
 
     // Wait for some time to let the PDF open

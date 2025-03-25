@@ -6,13 +6,13 @@ describe("Signup Page Test", () => {
     waitFor();
     cy.contains("button", "Update").should("be.visible").click();
     waitFor();
-    cy.contains("Join As a Provider").should("be.visible").click();
+    cy.contains("Join as Provider").should("be.visible").click();
     cy.url().should("include", "/joinVender");
     waitFor();
     cy.contains("Laboratory").should("be.visible").click();
     cy.url().should("include", "/laboratory/login");
     waitFor();
-    cy.get('input[placeholder="Email"]').type("derawen751@fuzitea.com", {
+    cy.get('input[placeholder="Email"]').type("hussain14.cs@gmail.com", {
       delay: 50,
     });
     cy.get('input[placeholder="Password"]').type("Admin@123", {
@@ -32,21 +32,21 @@ describe("Signup Page Test", () => {
     cy.get('input[placeholder="Branch Code"]').type("Branch-002", {
       delay: 50,
     });
-    cy.get('input[placeholder="Branch Address*"]')
-      .click()
-      .type("Johar Town", { delay: 200 });
+    cy.get("#react-select-2-input").type("123 Main Street", { force: true }); // Type the address text
 
-    // ✅ Ensure at least one suggestion is available before clicking
-    cy.get(".pac-item", { timeout: 8000 }).should("have.length.at.least", 1);
+    // Wait for suggestions to load (optional)
+    cy.wait(1000);
 
-    // ✅ Now, click the second suggestion (index 1)
-    cy.get(".pac-item").eq(1).click({ force: true });
-
+    // Select the first address suggestion from the autocomplete dropdown
+    cy.get(".pac-item").first().click({ force: true });
+    cy.get('input[placeholder="Branch Code"]').type("Branch-002", {
+      delay: 50,
+    });
     cy.get('input[placeholder="Phone"]').type("+923226624682", {
       delay: 50,
     });
     waitFor();
-    cy.get('input[placeholder="Phone"]').type("hussain44@gmail.com", {
+    cy.get('input[placeholder="Email"]').type("hussain44@gmail.com", {
       delay: 50,
     });
     cy.contains("Save").click();
