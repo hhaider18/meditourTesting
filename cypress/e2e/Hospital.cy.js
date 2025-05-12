@@ -1,38 +1,41 @@
 const waitFor = (time = 2000) => cy.wait(time);
 
-describe("Hospital", () => {
-  it("Hospital Dashboard must display - looped", () => {
-    const timesToRun = 3;
+const emails = [
+  "main-hosp11323@gmail.com",
+  "hussain14.cs@gmail.com",
+  // "clinic-user99@gmail.com",
+];
 
-    for (let i = 0; i < timesToRun; i++) {
-      cy.log(`Running iteration #${i + 1}`);
+const repeatCount = 10; // How many times to run each email
 
-      cy.visit("https://staging.meditour.global/");
-      waitFor();
-      cy.contains("button", "Cancel").should("be.visible").click();
-      waitFor();
+describe("Hospital Login Loop with Multiple Emails and Iterations", () => {
+  emails.forEach((email) => {
+    for (let i = 1; i <= repeatCount; i++) {
+      it(`Login & Logout [${email}] - Iteration #${i}`, () => {
+        cy.visit("https://staging.meditour.global/");
+        waitFor();
+        cy.contains("button", "Update").should("be.visible").click();
+        waitFor();
 
-      cy.contains("Join as Provider").should("be.visible").click();
-      cy.url().should("include", "/joinVender");
-      cy.contains("Hospitals & Clinics").should("be.visible").click();
-      cy.url().should("include", "/hospital/login");
+        cy.contains("Join as Provider").should("be.visible").click();
+        cy.url().should("include", "/joinVender");
+        cy.contains("Hospitals & Clinics").should("be.visible").click();
+        cy.url().should("include", "/hospital/login");
 
-      cy.get('input[placeholder="Email"]').type("main-hosp11323@gmail.com", {
-        delay: 50,
+        cy.get('input[placeholder="Email"]').type(email, { delay: 50 });
+        cy.get('input[placeholder="Password"]').type("Admin@123", {
+          delay: 50,
+        });
+        cy.get('input[placeholder="Password"]').parent().find("svg").click();
+        cy.get("button").contains("Login").click();
+        waitFor();
+
+        // Logout
+        cy.contains("Logout").should("be.visible").click();
+        cy.url().should("include", "/hospital/login");
+
+        waitFor(1000);
       });
-      cy.get('input[placeholder="Password"]').type("Admin@123", {
-        delay: 50,
-      });
-
-      cy.get('input[placeholder="Password"]').parent().find("svg").click();
-      cy.get("button").contains("Login").click();
-      waitFor();
-
-      // Add logout step if needed
-      cy.contains("Logout").should("be.visible").click();
-      cy.url().should("include", "/hospital/login");
-
-      waitFor(1000);
     }
   });
 });
