@@ -3,7 +3,7 @@ const waitFor = (time = 2000) => cy.wait(time);
 const emails = [
   "main-hosp11323@gmail.com",
   "hussain14.cs@gmail.com",
-  // "clinic-user99@gmail.com",
+  "clinic-user99@gmail.com",
 ];
 
 const repeatCount = 1; // How many times to run each email
@@ -34,7 +34,7 @@ describe("Hospital Login Loop with Multiple Emails and Iterations", () => {
         waitFor();
 
         //   waitFor();
-        // Expand "AESTHETIC TREATMENTS""
+        // ---------------------Expand "AESTHETIC TREATMENTS"---------------------------
         cy.contains("AESTHETIC TREATMENTS")
 
           .parent() // move to the container holding icon + label
@@ -59,7 +59,7 @@ describe("Hospital Login Loop with Multiple Emails and Iterations", () => {
           }
         });
 
-        // ADD TREATMENT FLOW
+        // --------------------------ADD TREATMENT FLOW-----------------------------
         //   cy.contains("+ Add").should("be.visible").click();
         //   cy.contains("AESTHETIC TREATMENTS")
         //     .parent() // get the container holding the label and the arrow
