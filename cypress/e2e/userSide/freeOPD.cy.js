@@ -19,7 +19,7 @@ describe("Free OPD Form Submission", () => {
         waitFor();
 
         cy.contains("button", "Free OPD").should("be.visible").click();
-
+        waitFor();
         // Fill the form
         cy.get('input[placeholder="Name"]').clear().type(name, { delay: 50 });
         cy.get('input[placeholder="Phone Number"]')
@@ -30,7 +30,10 @@ describe("Free OPD Form Submission", () => {
           .type(email, { delay: 50 });
 
         // Optional message field
-        // cy.get('input[placeholder=" Message(Optional)"]').type("Test message", { delay: 50 });
+        cy.get('textarea[placeholder=" Message(Optional)"]').type(
+          "I need an appointment",
+          { delay: 50 }
+        );
 
         // Submit
         cy.contains("button", "Submit").click();
