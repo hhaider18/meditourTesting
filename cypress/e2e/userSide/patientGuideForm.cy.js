@@ -1,17 +1,23 @@
 const waitFor = (time = 2000) => cy.wait(time);
 const repeatCount = 1;
 
-const names = ["Hussain Haider", "Zair Ali"];
-const phoneNumbers = ["03226624682", "03217251807"];
-const emails = ["hussain14.cs@gmail.com", "zairali22@gmail.com"];
+const users = [
+  {
+    name: "Hussain Haider",
+    phone: "03226624682",
+    email: "hussain14.cs@gmail.com",
+  },
+  {
+    name: "Zair Ali",
+    phone: "03217251807",
+    email: "zairali22@gmail.com",
+  },
+];
 
 describe("Free OPD Form Submission", () => {
-  names.forEach((name, index) => {
-    const phone = phoneNumbers[index];
-    const email = emails[index];
-
+  users.forEach((user) => {
     for (let i = 1; i <= repeatCount; i++) {
-      it(`Submit form for ${name} | ${phone} | ${email} - Iteration #${i}`, () => {
+      it(`Submit form for ${user.name} | ${user.phone} | ${user.email} - Iteration #${i}`, () => {
         cy.visit("https://staging.meditour.global/");
         waitFor();
 
@@ -25,17 +31,17 @@ describe("Free OPD Form Submission", () => {
         cy.get('input[placeholder=" Write here..."]')
           .eq(0)
           .clear()
-          .type(name, { delay: 100 }); // Name
+          .type(user.name, { delay: 100 }); // Name
         waitFor();
         cy.get('input[placeholder=" Write here..."]')
           .eq(1)
           .clear()
-          .type(phone, { delay: 100 }); // Phone
+          .type(user.phone, { delay: 100 }); // Phone
         waitFor();
         cy.get('input[placeholder=" Write here..."]')
           .eq(2)
           .clear()
-          .type(email, { delay: 100 }); // Email
+          .type(user.email, { delay: 100 }); // Email
         waitFor();
         cy.get('textarea[placeholder=" Write here..."]')
           .clear()

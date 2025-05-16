@@ -53,7 +53,7 @@ describe("Signup Page Test", () => {
     cy.contains("How many people can stay here?").should("be.visible");
     // Beds wale `+` button ko click karega
     cy.contains("Beds")
-      .parent() // Parent container locate karega
+      .parent() // To Parent container locate
       .find("button") // Us container ke andar button dhundega
       .contains("+") // "+" wale button ko locate karega
       .as("bedsPlus");
