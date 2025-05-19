@@ -44,13 +44,13 @@ describe("Signup Page Test", () => {
     waitFor();
     cy.get('input[placeholder="Strength"]').type("Pepsi");
     waitFor();
-    cy.get('input[placeholder="Pack Size"]').type("Pepsi");
+    cy.get('input[placeholder="Pack Size"]').type("20");
     waitFor();
     cy.get('input[placeholder="Content"]').type("Pepsi");
     waitFor();
-    cy.get('input[placeholder="T.P Price"]').type("Pepsi");
+    cy.get('input[placeholder="T.P Price"]').type("4500");
     waitFor();
-    cy.get('input[placeholder="M.R.P Price"]').type("Pepsi");
+    cy.get('input[placeholder="M.R.P Price"]').type("4500");
     waitFor();
     // Click the parent div to reveal the hidden file input if necessary
     cy.get(".styles_imagePicker__CiqCe").click();
@@ -63,5 +63,6 @@ describe("Signup Page Test", () => {
     waitFor();
 
     cy.contains("Save").click();
+    cy.get("styles_deleteIcon__l5II+").click();
   });
 });
