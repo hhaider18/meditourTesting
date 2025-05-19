@@ -63,6 +63,11 @@ describe("Signup Page Test", () => {
     waitFor();
 
     cy.contains("Save").click();
-    cy.get("styles_deleteIcon__l5II+").click();
+    waitFor();
+    cy.get(".styles_deleteIcon__l5II\\+").eq(1).click(); // 0-based index
+    waitFor();
+    cy.contains("Yes Delete").click();
+    waitFor();
+    cy.contains("Logout").click();
   });
 });
