@@ -1,0 +1,57 @@
+[
+  {
+    "searchTerm": "Paracetamol",
+    "brand": "Panadol",
+    "productType": "Tablet",
+    "strength": "500mg",
+    "packSize": "200",
+    "content": "Paracetamol 500 mg",
+    "tpPrice": "1200",
+    "mrpPrice": "1500",
+    "image": "panadol.png"
+  },
+  {
+    "searchTerm": "Dapagliflozin",
+    "brand": "Forxiga",
+    "productType": "Tablet",
+    "strength": "10mg",
+    "packSize": "98",
+    "content": "dapagliflozin propanediol monohydrate equivalent to 10 mg dapagliflozin",
+    "tpPrice": "500",
+    "mrpPrice": "550",
+    "image": "forxiga.png"
+  },
+  {
+    "searchTerm": "Amoxicillin",
+    "brand": "Augmentin",
+    "productType": "Tablet",
+    "strength": "375mg",
+    "packSize": "20",
+    "content": "500 mg amoxicillin (as amoxicillin trihydrate) and 125 mg clavulanic acid (as potassium clavulanate)",
+    "tpPrice": "750",
+    "mrpPrice": "900",
+    "image": "augmentin.png"
+  },
+  {
+    "searchTerm": "Ebastine",
+    "brand": "Ebak",
+    "productType": "Tablet",
+    "strength": "20mg",
+    "packSize": "10",
+    "content": "10 mg of ebastine",
+    "tpPrice": "900",
+    "mrpPrice": "1200",
+    "image": "ebak.png"
+  },
+  {
+    "searchTerm": "Ciprofloxacin",
+    "brand": "Ciproxin",
+    "productType": "Tablet",
+    "strength": "500mg",
+    "packSize": "10",
+    "content": "1.4 g sucrose per 5-mL measuring spoonful",
+    "tpPrice": "1800",
+    "mrpPrice": "2000",
+    "image": "ciproxin.png"
+  }
+]

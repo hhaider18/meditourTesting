@@ -4,7 +4,7 @@ describe("My First Test", () => {
   it("Launch Browser and Navigate", () => {
     cy.visit("https://staging.meditour.global/");
 
-    cy.viewport("iphone-x");
+    cy.viewport("samsung-note9");
     waitFor();
     cy.contains("button", "Update").should("be.visible").click();
     waitFor();

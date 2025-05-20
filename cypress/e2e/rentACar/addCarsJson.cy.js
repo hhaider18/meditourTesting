@@ -1,39 +1,5 @@
 const waitFor = (time = 2000) => cy.wait(time);
-
-// const vehicles = [
-//   {
-//     regNumber: "LEV-1122",
-//     oName: "Hussain Haider",
-//     mobileNo: "03226624682",
-//     email: "hussain14.cs@gmail.com",
-//     nicNo: "3440265985547",
-//     perDayRent: "4500",
-//     vehicleName: "Toyota Corolla",
-//     vehicleType: "Sedan",
-//     year: "2019",
-//     vColor: "White",
-//     seats: "4 Seats (e.g., Compact Car)",
-//     cNumber: 12233445566778899,
-//     images: ["94167a.jpg", "altis 1.png"],
-//   },
-//   {
-//     regNumber: "LEV-1123",
-//     oName: "Javed Ali",
-//     mobileNo: "03349960578",
-//     email: "hussain1@gmail.com",
-//     nicNo: "3440260000000",
-//     perDayRent: "2300",
-//     vehicleName: "Suzuki Alto",
-//     vehicleType: "HatchBacks",
-//     year: "2023",
-//     vColor: "White",
-//     seats: "4 Seats (e.g., Compact Car)",
-//     cNumber: 12233445566778800,
-//     images: ["94167a.jpg", "altis 1.png"],
-//   },
-// ];
-
-describe("Signup Page Test", () => {
+describe("add cars from JSON file", () => {
   before(() => {
     cy.visit("https://staging.meditour.global/");
     waitFor();
@@ -53,6 +19,8 @@ describe("Signup Page Test", () => {
 
     cy.get('input[placeholder="Password"]').parent().find("svg").click();
     cy.get("button").contains("Login").click();
+    cy.contains("Vehicle Details").click();
+    waitFor();
     waitFor();
     cy.fixture("vehicles").then((data) => {
       cy.wrap(data).as("vehiclesData");
@@ -61,8 +29,6 @@ describe("Signup Page Test", () => {
 
   it("Add vehicles from fixture", function () {
     this.vehiclesData.forEach((vehicle) => {
-      cy.contains("Vehicle Details").click();
-      waitFor();
       cy.get("button").contains("+ Add Car").click();
       waitFor();
 
