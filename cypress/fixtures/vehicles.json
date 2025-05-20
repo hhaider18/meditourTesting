@@ -1,0 +1,32 @@
+[
+  {
+    "regNumber": "LEV-1122",
+    "oName": "Hussain Haider",
+    "mobileNo": "03226624682",
+    "email": "hussain14.cs@gmail.com",
+    "nicNo": "3440265985547",
+    "perDayRent": "4500",
+    "vehicleName": "Toyota Corolla",
+    "vehicleType": "Sedan",
+    "year": "2019",
+    "vColor": "White",
+    "seats": "4 Seats (e.g., Compact Car)",
+    "cNumber": "12233445566778899",
+    "images": ["94167a.jpg", "altis 1.png"]
+  },
+  {
+    "regNumber": "LEV-1123",
+    "oName": "Javed Ali",
+    "mobileNo": "03349960578",
+    "email": "javed@gmail.com",
+    "nicNo": "3440260000000",
+    "perDayRent": "2300",
+    "vehicleName": "Suzuki Alto",
+    "vehicleType": "HatchBacks",
+    "year": "2023",
+    "vColor": "Red",
+    "seats": "4 Seats (e.g., Compact Car)",
+    "cNumber": "12233445566778800",
+    "images": ["94167a.jpg", "altis 1.png"]
+  }
+]

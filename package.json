@@ -9,6 +9,7 @@
   "author": "Hussain Haider",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
     "cypress": "^14.2.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-xpath": "^2.0.1",

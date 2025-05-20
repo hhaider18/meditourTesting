@@ -1,5 +1,4 @@
 const waitFor = (time = 2000) => cy.wait(time);
-const searchTerm = "Amlodipine";
 describe("Signup Page Test", () => {
   it("should load the signup page", () => {
     cy.visit("https://staging.meditour.global/");
