@@ -1,0 +1,23 @@
+[
+  {
+    "searchTerm": "BLOOD C/E (CBC)",
+    "specimenType": "Blood",
+    "actualPrice": 1500,
+    "meditourPrice": 1490,
+    "description": " blood test that measures the amount and size of different blood cells"
+  },
+  {
+    "searchTerm": "BLOOD SUGAR (RANDOM)",
+    "specimenType": "Blood",
+    "actualPrice": 500,
+    "meditourPrice": 450,
+    "description": "measures the amount of glucose (sugar) in your blood at any given time, regardless of when you last ate or drank"
+  },
+  {
+    "searchTerm": "RENAL FUNCTION TEST",
+    "specimenType": "Blood",
+    "actualPrice": 2500,
+    "meditourPrice": 2400,
+    "description": "a group of tests that evaluate how well your kidneys are working"
+  }
+]

@@ -21,7 +21,6 @@ describe("add cars from JSON file", () => {
     cy.get("button").contains("Login").click();
     cy.contains("Vehicle Details").click();
     waitFor();
-    waitFor();
     cy.fixture("vehicles").then((data) => {
       cy.wrap(data).as("vehiclesData");
     });

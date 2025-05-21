@@ -17,7 +17,7 @@ describe("My First Test", () => {
     waitFor();
     cy.viewport("macbook-11");
     waitFor();
-    cy.viewport(2560, 894); // Custom size
+    cy.viewport(50000, 20000); // Custom size
     // waitFor();
     // cy.get(
     //   "#root > div:nth-child(2) > div > div:nth-child(1) > div > div > svg"
