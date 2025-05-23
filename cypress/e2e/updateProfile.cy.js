@@ -6,7 +6,7 @@ describe("Button Click Test", () => {
     // cy.pause(); // DEBUG: Check if the page is fully loaded
     cy.contains("button", "Update").should("be.visible").click();
     waitFor();
-    cy.contains("Join As a Provider").should("be.visible").click();
+    cy.contains("Join as Provider").should("be.visible").click();
     waitFor();
     cy.url().should("include", "/joinVender");
     waitFor();

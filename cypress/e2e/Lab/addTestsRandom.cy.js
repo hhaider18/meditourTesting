@@ -32,7 +32,21 @@ describe("Add test using dynamic API data", () => {
       testsArray.forEach((testItem) => {
         const testName = testItem.name;
 
-        const specimenTypes = ["Blood", "Urine", "Saliva"];
+        const specimenTypes = [
+          "Blood",
+          "Bone Marrow",
+          "Breath",
+          "Cerebrospinal Fluid",
+          "Feces",
+          "Hair and Nails",
+          "Saliva",
+          "Seminal Fluid",
+          "Sputum",
+          "Swabs",
+          "Sweat",
+          "Tissue",
+          "Urine",
+        ];
         const specimenType =
           specimenTypes[Math.floor(Math.random() * specimenTypes.length)];
         const actualPrice = Math.floor(Math.random() * (1000 - 100 + 1)) + 100;
@@ -47,7 +61,7 @@ describe("Add test using dynamic API data", () => {
           .type(testName)
           .should("have.value", testName);
 
-        cy.wait(1000);
+        waitFor(3000);
 
         cy.get("div.styles_searchResults__RW1ud", { timeout: 10000 })
           .should("be.visible")

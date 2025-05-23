@@ -9,15 +9,15 @@ describe("My First Test", () => {
     // cy.get(
     //   "#root > div:nth-child(2) > div > div:nth-child(1) > div > div > svg"
     // ).click();
-    waitFor();
-    cy.viewport("iphone-x");
-    waitFor();
-    cy.viewport(1024, 768); // Custom size
+    // waitFor();
+    // cy.viewport("iphone-x");
+    // waitFor();
+    // cy.viewport(1024, 768); // Custom size
 
-    waitFor();
-    cy.viewport("macbook-11");
-    waitFor();
-    cy.viewport(50000, 20000); // Custom size
+    // waitFor();
+    // cy.viewport("macbook-11");
+    // waitFor();
+    // cy.viewport(15000, 4000); // Custom size
     // waitFor();
     // cy.get(
     //   "#root > div:nth-child(2) > div > div:nth-child(1) > div > div > svg"
