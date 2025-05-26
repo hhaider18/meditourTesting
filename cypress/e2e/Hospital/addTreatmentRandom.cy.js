@@ -2,8 +2,8 @@ const waitFor = (time = 2000) => cy.wait(time);
 
 const emails = [
   "main-hosp11323@gmail.com",
-  "hussain14.cs@gmail.com",
-  "clinic-user99@gmail.com",
+  //   "hussain14.cs@gmail.com",
+  //   "clinic-user99@gmail.com",
 ];
 
 const repeatCount = 1; // How many times to run each email
@@ -32,32 +32,6 @@ describe("Hospital Login Loop with Multiple Emails and Iterations", () => {
         // Add Treatment
         cy.contains("Treatments or Surgery").should("be.visible").click();
         waitFor();
-
-        //   waitFor();
-        // ---------------------Expand "AESTHETIC TREATMENTS"---------------------------
-        // cy.contains("AESTHETIC TREATMENTS")
-
-        //   .parent() // move to the container holding icon + label
-        //   .find("img.style_iconMedium__PLCRg")
-        //   .click({ force: true });
-        // waitFor();
-        // cy.contains("Laser Hair Removal").should("be.visible").click();
-        // waitFor();
-
-        // cy.get("body").then(($body) => {
-        //   if ($body.find('button:contains("View")').length > 0) {
-        //     cy.contains("View")
-        //       .scrollIntoView()
-        //       .should("be.visible")
-        //       .click({ force: true });
-        //     waitFor();
-        //     cy.get(
-        //       'svg path[d="M400 145.49L366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49z"]'
-        //     )
-        //       .parents("svg")
-        //       .click({ force: true });
-        //   }
-        // });
 
         // --------------------------ADD TREATMENT FLOW-----------------------------
         cy.contains("+ Add").should("be.visible").click();

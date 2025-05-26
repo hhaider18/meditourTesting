@@ -1,0 +1,2532 @@
+[{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b149"
+  },
+  "generic": "Cephradine monohydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b14a"
+  },
+  "generic": "Amlodipine + Telmisartan",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b14b"
+  },
+  "generic": "Amlodipine + Valsartan",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b14c"
+  },
+  "generic": "Amlodipine + Valsartan + Hydrochlorothiazide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b14d"
+  },
+  "generic": "Amoxicillin trihydrate + Clavulanate potassium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b14e"
+  },
+  "generic": "Apixaban",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b14f"
+  },
+  "generic": "Artemether + Lumefantrine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b150"
+  },
+  "generic": "Atorvastatin calcium trihydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b151"
+  },
+  "generic": "Atorvastatin calcium trihydrate + Ezetimibe",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b152"
+  },
+  "generic": "Azithromycin dihydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b153"
+  },
+  "generic": "Beclomethasone",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b154"
+  },
+  "generic": "Beclomethasone dipropionate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b155"
+  },
+  "generic": "Brivaracetam",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.845Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b156"
+  },
+  "generic": "Budesonide + Formoterol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b157"
+  },
+  "generic": "Budesonide + Formoterol fumarate dihydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b158"
+  },
+  "generic": "Calcium + Vitamin D + Vitamin K2",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b159"
+  },
+  "generic": "Candesartan cilexetil",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b15a"
+  },
+  "generic": "Candesartan cilexetil + Hydrochlorothiazide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b15b"
+  },
+  "generic": "Cefaclor",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b15c"
+  },
+  "generic": "Cefadroxil",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b15d"
+  },
+  "generic": "Cefepime",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b15e"
+  },
+  "generic": "Cefixime trihydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b15f"
+  },
+  "generic": "Cefoperazone + Sulbactam",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b160"
+  },
+  "generic": "Cefotaxime",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b161"
+  },
+  "generic": "Ceftriaxone sodium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b162"
+  },
+  "generic": "Celecoxib",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b163"
+  },
+  "generic": "Cholecalciferol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b164"
+  },
+  "generic": "Ciprofloxacin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b165"
+  },
+  "generic": "Ciprofloxacin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b166"
+  },
+  "generic": "Clarithromycin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b167"
+  },
+  "generic": "Cranberry Extract + Vitamin C + Vitamin E",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b168"
+  },
+  "generic": "Daclatasvir",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b169"
+  },
+  "generic": "Dapagliflozin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b16a"
+  },
+  "generic": "Dapagliflozin + Metformin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b16b"
+  },
+  "generic": "Dapagliflozin + Metformin XR",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b16c"
+  },
+  "generic": "Desloratadine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b16d"
+  },
+  "generic": "Dexlansoprazole",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b16e"
+  },
+  "generic": "Diclofenac Sodium + Misoprostol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b16f"
+  },
+  "generic": "Dietary Supplement",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b170"
+  },
+  "generic": "Duloxetine hydrochloride",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.846Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b171"
+  },
+  "generic": "Ebastine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b172"
+  },
+  "generic": "Empagliflozin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b173"
+  },
+  "generic": "Empagliflozin + Linagliptin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b174"
+  },
+  "generic": "Empagliflozin + Linagliptin + Metformin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b175"
+  },
+  "generic": "Empagliflozin + Metformin (Extended Release)",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b176"
+  },
+  "generic": "Empagliflozin + Metformin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b177"
+  },
+  "generic": "Ertugliflozin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b178"
+  },
+  "generic": "Ertugliflozin + Sitagliptin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b179"
+  },
+  "generic": "Escitalopram oxalate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b17a"
+  },
+  "generic": "Esomeprazole magnesium trihydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b17b"
+  },
+  "generic": "Esomeprazole sodium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b17c"
+  },
+  "generic": "Etanercept",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b17d"
+  },
+  "generic": "Etoricoxib",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b17e"
+  },
+  "generic": "Ezetimibe",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b17f"
+  },
+  "generic": "Favipiravir",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b180"
+  },
+  "generic": "Febuxostat",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b181"
+  },
+  "generic": "Fenofibrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b182"
+  },
+  "generic": "Fexofenadine HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b183"
+  },
+  "generic": "Fexofenadine HCl+ Pseudoephedrine HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b184"
+  },
+  "generic": "Finerenone",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b185"
+  },
+  "generic": "Fluticasone Furoate + Umeclidinium + Vilanterol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b186"
+  },
+  "generic": "Gabapentin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b187"
+  },
+  "generic": "Gliclazide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b188"
+  },
+  "generic": "Glimepiride",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b189"
+  },
+  "generic": "Glimepiride + Metformin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b18a"
+  },
+  "generic": "Glucosamine sulfate potassium chloride + Chondroitin sulfate sodium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b18b"
+  },
+  "generic": "Human Insulin rDNA",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b18c"
+  },
+  "generic": "Hydroxychloroquine sulphate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b18d"
+  },
+  "generic": "Insulin Glargine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b18e"
+  },
+  "generic": "Insulin glargine rDNA",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b18f"
+  },
+  "generic": "Ipratropium bromide monohydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b190"
+  },
+  "generic": "Iron sucrose",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b191"
+  },
+  "generic": "Itopride HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b192"
+  },
+  "generic": "Ivabradine HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b193"
+  },
+  "generic": "Ivy Leaf",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b194"
+  },
+  "generic": "Ivy Leaf + Thyme + Licorice",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b195"
+  },
+  "generic": "Ketorolac Tromethamine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b196"
+  },
+  "generic": "Lactulose",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b197"
+  },
+  "generic": "Ledipasvir + Sofosbuvir",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b198"
+  },
+  "generic": "Levetiracetam",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b199"
+  },
+  "generic": "Levocetirizine Dihydrochloride",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b19a"
+  },
+  "generic": "Levodopa+Carbidopa+Entacapone",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b19b"
+  },
+  "generic": "Levofloxacin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b19c"
+  },
+  "generic": "Linezolid",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b19d"
+  },
+  "generic": "Lornoxicam",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b19e"
+  },
+  "generic": "Macronutrients & Micronutrients (Oral Nutritional Supplement)",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b19f"
+  },
+  "generic": "Mebeverine HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a0"
+  },
+  "generic": "Mecobalamin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a1"
+  },
+  "generic": "Meropenem",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a2"
+  },
+  "generic": "Mesalazine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a3"
+  },
+  "generic": "Mirabegron",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a4"
+  },
+  "generic": "Montelukast sodium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a5"
+  },
+  "generic": "Moxifloxacin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a6"
+  },
+  "generic": "Multivitamins & Minerals",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a7"
+  },
+  "generic": "Nalbuphine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a8"
+  },
+  "generic": "Nebivolol HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1a9"
+  },
+  "generic": "Olanzapine + Fluoxetine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1aa"
+  },
+  "generic": "Omeprazole",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ab"
+  },
+  "generic": "Omeprazole + Sodium bicarbonate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ac"
+  },
+  "generic": "Omeprazole sodium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ad"
+  },
+  "generic": "Ondansetron",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ae"
+  },
+  "generic": "Orlistat",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1af"
+  },
+  "generic": "Ossein Mineral Complex + Vitamin D",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b0"
+  },
+  "generic": "Phenazopyridine HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b1"
+  },
+  "generic": "Pioglitazone HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b2"
+  },
+  "generic": "Pioglitazone HCl + Glimepiride",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b3"
+  },
+  "generic": "Pioglitazone HCl + Metformin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b4"
+  },
+  "generic": "Pregabalin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b5"
+  },
+  "generic": "Ribavirin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b6"
+  },
+  "generic": "Rifaximin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b7"
+  },
+  "generic": "Risperidone",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b8"
+  },
+  "generic": "Rivaroxaban",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1b9"
+  },
+  "generic": "Rosuvastatin + Ezetimibe",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ba"
+  },
+  "generic": "Rosuvastatin calcium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1bb"
+  },
+  "generic": "Roxadustat",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1bc"
+  },
+  "generic": "Rupatadine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1bd"
+  },
+  "generic": "Sacubitril+valsartan",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1be"
+  },
+  "generic": "Salbutamol sulphate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1bf"
+  },
+  "generic": "Salbutamol sulphate + Beclomethasone dipropionate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c0"
+  },
+  "generic": "Salmeterol + Fluticasone",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c1"
+  },
+  "generic": "Silodosin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c2"
+  },
+  "generic": "Sitagliptin phosphate monohydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c3"
+  },
+  "generic": "Sitagliptin phosphate monohydrate + Metformin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.849Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c4"
+  },
+  "generic": "Sofosbuvir",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c5"
+  },
+  "generic": "Sofosbuvir + Velpatasvir",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c6"
+  },
+  "generic": "Solifenacin succinate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c7"
+  },
+  "generic": "Tamsulosin HCI",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c8"
+  },
+  "generic": "Tamsulosin HCl + Dutasteride",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1c9"
+  },
+  "generic": "Tamsulosin HCl + Solifenacin succinate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ca"
+  },
+  "generic": "Telmisartan",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1cb"
+  },
+  "generic": "Telmisartan + Hydrochlorothiazide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1cc"
+  },
+  "generic": "Tenofovir Alafenamide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1cd"
+  },
+  "generic": "Tenofovir disoproxil fumarate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ce"
+  },
+  "generic": "Terlipressin acetate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1cf"
+  },
+  "generic": "Tiotropium Bromide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d0"
+  },
+  "generic": "Tramadol HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d1"
+  },
+  "generic": "Trastuzumab",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d2"
+  },
+  "generic": "Trelagliptin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d3"
+  },
+  "generic": "Tribulus terrestris Extract + Vit-E+ L-Opti Zinc + Selenium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d4"
+  },
+  "generic": "Umeclidinium + Vilanterol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d5"
+  },
+  "generic": "Upadacitinib",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d6"
+  },
+  "generic": "Valsartan",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d7"
+  },
+  "generic": "Valsartan + Hydrochlorothiazide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d8"
+  },
+  "generic": "Vildagliptin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1d9"
+  },
+  "generic": "Vildagliptin + Metformin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1da"
+  },
+  "generic": "Vonoprazan",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1db"
+  },
+  "generic": "Vortioxetine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1dc"
+  },
+  "generic": "Ceftazidime",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1dd"
+  },
+  "generic": "Sulbactam sodium/cefoperazone sodium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1de"
+  },
+  "generic": "Cefixime",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1df"
+  },
+  "generic": "Azithromycin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e0"
+  },
+  "generic": "Moxifloxacin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e1"
+  },
+  "generic": "Bisoprolol Fumarate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e2"
+  },
+  "generic": "Ticagrelor",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e3"
+  },
+  "generic": "Clopidogrel + Aspirin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e4"
+  },
+  "generic": "Atenolol + Chlorthalidone",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e5"
+  },
+  "generic": "Telmisartan + Amlodipine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e6"
+  },
+  "generic": "Telmisartan+ Hydrochlorothiazide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e7"
+  },
+  "generic": "Esomeprazole",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e8"
+  },
+  "generic": "Atenelol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1e9"
+  },
+  "generic": "Atorvastatin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ea"
+  },
+  "generic": "Enteric-coated Aspirin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1eb"
+  },
+  "generic": "Nebivolol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ec"
+  },
+  "generic": "Ranolazine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ed"
+  },
+  "generic": "Clopidogrel",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ee"
+  },
+  "generic": "Rosuvastatin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ef"
+  },
+  "generic": "Eplerenone",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f0"
+  },
+  "generic": "Sacubitril + Valsartan",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f1"
+  },
+  "generic": "Ivabradine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f2"
+  },
+  "generic": "Rabeprazole Sodium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f3"
+  },
+  "generic": "Diltiazem HCI",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f4"
+  },
+  "generic": "Racecadotrill",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f5"
+  },
+  "generic": "Sulfolax",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f6"
+  },
+  "generic": "Lansoprazole",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f7"
+  },
+  "generic": "Cintapride",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f8"
+  },
+  "generic": "Duloxetine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1f9"
+  },
+  "generic": "Dapagliflozin + MetFormin HCI",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1fa"
+  },
+  "generic": "Empagliflozin + Metformin HCI Extended-release",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1fb"
+  },
+  "generic": "Sitagliptin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1fc"
+  },
+  "generic": "Sitagliptin + Metformin HCl",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1fd"
+  },
+  "generic": "Sitagliptin + Metformin HCI Sustained Release",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1fe"
+  },
+  "generic": "Glimepiride + Metformin HCI",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b1ff"
+  },
+  "generic": "Tramadol HCL + Paracetamol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b200"
+  },
+  "generic": "Tramadol HCI",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b201"
+  },
+  "generic": "Aceclofenac",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b202"
+  },
+  "generic": "Letrozole",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b203"
+  },
+  "generic": "Appetite Stimulant",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b204"
+  },
+  "generic": "Glycopyrronium",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b205"
+  },
+  "generic": "Glycopyrronium + Indacaterol",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b206"
+  },
+  "generic": "Powerhaler",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.852Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b207"
+  },
+  "generic": "Budesonide + Formoterol Fumarate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b208"
+  },
+  "generic": "Pirfenidone",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b209"
+  },
+  "generic": "Rotaflo",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b20a"
+  },
+  "generic": "Revolizer",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b20b"
+  },
+  "generic": "Tiotropium + Formoterol Fumarate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b20c"
+  },
+  "generic": "Montelukast",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b20d"
+  },
+  "generic": "Valsartan+ Amlodipine",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b20e"
+  },
+  "generic": "Amlodipine +Valsartan+Hydrochlorothiazide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b20f"
+  },
+  "generic": "Amlodipine+Telmisartan",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b210"
+  },
+  "generic": "Imipenem + Cilastatin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b211"
+  },
+  "generic": "Sterile piperacillin sodium eq. to Piperacillin 4mgSterile Tazobactam sodium eq. to Tazobactam 0.5gm",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b212"
+  },
+  "generic": "Meropenem Succinat",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b213"
+  },
+  "generic": "Vancomycin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b214"
+  },
+  "generic": "Glimepride",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b215"
+  },
+  "generic": "Dapagliflozin propanediol monohydrate",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b216"
+  },
+  "generic": "Pantaprozole",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b217"
+  },
+  "generic": "Ondansetron Hydrochloride dihydrate eq. To Ondansetron",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b218"
+  },
+  "generic": "Vildagliptin+Metformin HCI",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b219"
+  },
+  "generic": "Metformin HCI,Glibenclimide",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b21a"
+  },
+  "generic": "Ertugliflozin+Sitagliptin",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67693b6473df0fbd5677b21b"
+  },
+  "generic": "Empagliflozin+Metformin HCI",
+  "createdAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-23T15:28:51.853Z"
+  }
+}]

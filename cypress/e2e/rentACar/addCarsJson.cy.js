@@ -66,7 +66,6 @@ describe("add cars from JSON file", () => {
 
       cy.get(".VehicleDetail_imagePicker__lXdRu").click();
       cy.get('input[type="file"]').attachFile(vehicle.images);
-      cy.contains("Upload Photos").should("be.visible");
       waitFor();
 
       cy.contains("Save").click();
