@@ -1,10 +1,10 @@
 const waitFor = (time = 2000) => cy.wait(time);
 import { faker } from "@faker-js/faker";
-const generateComtact = () => ({
+const generateOPDReq = () => ({
   name: faker.person.fullName(),
-  email: faker.internet.email(),
   phone: faker.phone.number("03#########"),
-  city: faker.location.streetAddress(),
+  email: faker.internet.email(),
+  description: faker.location.streetAddress(),
 });
 
 describe("Free OPD Form Submission", () => {
@@ -15,32 +15,26 @@ describe("Free OPD Form Submission", () => {
     cy.contains("button", "Update").should("be.visible").click();
     waitFor();
 
-    cy.contains("Contact Us").should("be.visible").click();
+    cy.contains("button", "Free OPD").should("be.visible").click();
     waitFor();
   });
-  it("Submit form for user", function () {
-    const users = Array.from({ length: 1 }, () => generateComtact());
+  it("Submit form for", function () {
+    const users = Array.from({ length: 2 }, () => generateOPDReq());
     users.forEach((user) => {
       // Fill the form
-      cy.get('input[placeholder="Your name*"]')
+      cy.get('input[placeholder="Name"]')
         .clear()
         .type(user.name, { delay: 50 });
-
-      cy.get('input[placeholder="Email*"]')
+      cy.get('input[placeholder="Phone Number"]')
+        .clear()
+        .type(user.phone, { delay: 50 });
+      cy.get('input[placeholder=" Email(Optional)"]')
         .clear()
         .type(user.email, { delay: 50 });
 
-      cy.get('input[placeholder="Phone Number*"]')
-        .clear()
-        .type(user.phone, { delay: 50 });
-
-      cy.get('input[placeholder="City*"]')
-        .clear()
-        .type(user.city, { delay: 50 });
-
       // Optional message field
-      cy.get('textarea[placeholder="Your Message"]').type(
-        "I need an appointment",
+      cy.get('textarea[placeholder=" Message(Optional)"]').type(
+        user.description,
         { delay: 50 }
       );
 

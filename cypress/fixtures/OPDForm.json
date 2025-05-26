@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ali Raza",
+    "phone": "03123456789",
+    "email": "ali.raza@example.com",
+    "description": "Need consultation about general checkup."
+  },
+  {
+    "name": "Fatima Khan",
+    "phone": "03214567890",
+    "email": "fatima.k@example.com",
+    "description": "Looking for dermatology advice."
+  },
+  {
+    "name": "Usman Tariq",
+    "phone": "03335678901",
+    "email": "usman.t@example.com",
+    "description": "Query regarding lab test booking."
+  }
+]
