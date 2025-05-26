@@ -1,4 +1,22 @@
 const waitFor = (time = 2000) => cy.wait(time);
+import { faker } from "@faker-js/faker";
+const generateParamedicReq = () => ({
+  name: faker.person.fullName(),
+  email: faker.internet.email(),
+  number: faker.phone.number("03#########"),
+  address: faker.location.streetAddress(),
+  gender: faker.helpers.arrayElement(["male", "female"]),
+  date: faker.date.past().toLocaleDateString("en-US"),
+  time: faker.date
+    .recent()
+    .toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" }),
+  area: faker.location.city(),
+  city: faker.location.city(),
+  schedule: faker.helpers.arrayElement(["day", "night", "other"]),
+  specifySchedule: faker.lorem.words(2),
+  remarks: faker.lorem.sentence(),
+});
+
 describe("Paramedics form request", () => {
   before(() => {
     cy.visit("https://staging.meditour.global/");
@@ -26,13 +44,14 @@ describe("Paramedics form request", () => {
     waitFor();
     cy.contains("Nurses").click();
     waitFor();
-    cy.fixture("paramedicsForms").then((data) => {
-      cy.wrap(data).as("usersData");
-    });
   });
 
-  it("Add paramedics request form", function () {
-    this.usersData.forEach((user) => {
+  it("Add paramedics request form with random data", function () {
+    const paramedicReq = Array.from({ length: 1 }, () =>
+      generateParamedicReq()
+    );
+
+    paramedicReq.forEach((user) => {
       cy.get('input[placeholder="Enter your name"]')
         .clear()
         .type(user.name, { delay: 50 });

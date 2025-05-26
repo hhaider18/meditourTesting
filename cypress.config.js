@@ -7,8 +7,10 @@ module.exports = defineConfig({
     },
     viewportWidth: 1366, // Width in pixels
     viewportHeight: 768, // Height in pixels
+    scrollBehavior: "center",
   },
 });
+
 // module.exports = defineConfig({
 //   e2e: {
 //     setupNodeEvents(on, config) {
