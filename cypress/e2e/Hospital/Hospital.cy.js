@@ -61,13 +61,13 @@ describe("Hospital Login Loop with Multiple Emails and Iterations", () => {
 
         // --------------------------ADD TREATMENT FLOW-----------------------------
         cy.contains("+ Add").should("be.visible").click();
-        cy.contains("AESTHETIC TREATMENTS")
-          .parent() // get the container holding the label and the arrow
-          // .find("")
-          .find('svg[data-testid="ChevronRightIcon"]') // target the arrow
-          .click({ force: true }); // force click in case it's not in the viewport
 
-        waitFor();
+        cy.contains("BARIATRIC SURGERY") // finds the heading
+          .scrollIntoView()
+          .should("be.visible")
+          .parent()
+          .find('svg[data-testid="ChevronRightIcon"]') // or specific svg[data-testid="..."]
+          .click({ force: true });
 
         waitFor(); // wait for animation to expand
 

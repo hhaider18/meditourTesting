@@ -9,6 +9,14 @@ module.exports = defineConfig({
     viewportHeight: 768, // Height in pixels
     scrollBehavior: "center",
   },
+
+  component: {
+    devServer: {
+      framework: "react",
+      bundler: "webpack",
+    },
+    specPattern: "cypress/component/**/*.cy.{js,jsx,ts,tsx}",
+  },
 });
 
 // module.exports = defineConfig({

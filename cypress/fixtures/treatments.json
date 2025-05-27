@@ -1,0 +1,307 @@
+[
+  {
+    "categoryName": "GYNECOLOGISTS",
+    "subCategory": "Recurrent Pregnancy Loss"
+  },
+  { "categoryName": "GYNECOLOGISTS", "subCategory": "Obstetrics" },
+  { "categoryName": "GYNECOLOGISTS", "subCategory": "Laparotomy" },
+  { "categoryName": "GYNECOLOGISTS", "subCategory": "High Risk Pregnancy" },
+  { "categoryName": "GYNECOLOGISTS", "subCategory": "Hysteroscopy" },
+  { "categoryName": "COSMETIC SURGERY", "subCategory": "Cosmetic Rhinoplasty" },
+  { "categoryName": "COSMETIC SURGERY", "subCategory": "Liposuction" },
+  { "categoryName": "COSMETIC SURGERY", "subCategory": "Breast Augmentation" },
+  { "categoryName": "COSMETIC SURGERY", "subCategory": "Abdominoplasty" },
+  {
+    "categoryName": "BARIATRIC SURGERY",
+    "subCategory": "Adjustable Gastric Band"
+  },
+  { "categoryName": "BARIATRIC SURGERY", "subCategory": "Sleeve Gastrectomy" },
+  { "categoryName": "BARIATRIC SURGERY", "subCategory": "BPD/DS" },
+  { "categoryName": "TRANSPLANTS", "subCategory": "Kidney Transplant" },
+  { "categoryName": "TRANSPLANTS", "subCategory": "Bone Marrow Transplant" },
+  { "categoryName": "TRANSPLANTS", "subCategory": "Hair Transplant" },
+  { "categoryName": "TRANSPLANTS", "subCategory": "Liver Transplant" },
+  { "categoryName": "OPTHALMOLOGY", "subCategory": "Cataracts" },
+  { "categoryName": "OPTHALMOLOGY", "subCategory": "Glaucoma" },
+  { "categoryName": "OPTHALMOLOGY", "subCategory": "Refractive Errors" },
+  {
+    "categoryName": "OPTHALMOLOGY",
+    "subCategory": "Age-Related Macular Degeneration(AMD)"
+  },
+  { "categoryName": "OPTHALMOLOGY", "subCategory": "Dry Eye Syndrome" },
+  { "categoryName": "OPTHALMOLOGY", "subCategory": "Diabetic Retinopathy" },
+  { "categoryName": "CANCER", "subCategory": "Breast Cancer Treatment" },
+  { "categoryName": "CANCER", "subCategory": "Prostate Cancer Treatment" },
+  { "categoryName": "CANCER", "subCategory": "Hemicolectomy" },
+  { "categoryName": "CANCER", "subCategory": "Lung Cancer Treatment" },
+  { "categoryName": "CANCER", "subCategory": "Stomach Cancer Treatment" },
+  { "categoryName": "CANCER", "subCategory": "Cervical Cancer Treatment" },
+  {
+    "categoryName": "ORTHOPEDICS",
+    "subCategory": "Anterior Cruciate Ligament (ACL) Reconstruction"
+  },
+  { "categoryName": "ORTHOPEDICS", "subCategory": "Total Hip Replacement" },
+  { "categoryName": "ORTHOPEDICS", "subCategory": "Total Knee Replacement" },
+  { "categoryName": "ORTHOPEDICS", "subCategory": "Knee Arthroscopy" },
+  {
+    "categoryName": "ORTHOPEDICS",
+    "subCategory": "Disc Replacement (Cervical/Lumbar)"
+  },
+  {
+    "categoryName": "STEM CELL",
+    "subCategory": "Cartilage Regeneration Stem Cell Therapy"
+  },
+  { "categoryName": "STEM CELL", "subCategory": "Erectile Dysfunction" },
+  {
+    "categoryName": "STEM CELL",
+    "subCategory": "Stem Cell Therapy in Ovarian Rejuvenation"
+  },
+  { "categoryName": "STEM CELL", "subCategory": "Osteoarthritis" },
+  {
+    "categoryName": "STEM CELL",
+    "subCategory": "Stem Cell Therapy – Testicular Perfusion (Azoospermia)"
+  },
+  { "categoryName": "STEM CELL", "subCategory": "Rheumatoid Arthritis" },
+  { "categoryName": "STEM CELL", "subCategory": "Autism" },
+  { "categoryName": "STEM CELL", "subCategory": "Parkinson’s Disease" },
+  { "categoryName": "STEM CELL", "subCategory": "Diabetes" },
+  { "categoryName": "STEM CELL", "subCategory": "Cancer" },
+  { "categoryName": "PEDIATRICS", "subCategory": "Allergic And Asthma" },
+  {
+    "categoryName": "PEDIATRICS",
+    "subCategory": "Ear infections (Otitis Media)"
+  },
+  {
+    "categoryName": "PEDIATRICS",
+    "subCategory": "Developmental And Behavioral Disorders"
+  },
+  { "categoryName": "PEDIATRICS", "subCategory": "Genetic Disorders" },
+  { "categoryName": "PEDIATRICS", "subCategory": "Respiratory Infections" },
+  { "categoryName": "PEDIATRICS", "subCategory": "Skin Conditions" },
+  { "categoryName": "PEDIATRICS", "subCategory": "Gastrointestinal Disorders" },
+  { "categoryName": "PEDIATRICS", "subCategory": "Childhood Immunizations" },
+  {
+    "categoryName": "DENTAL",
+    "subCategory": "Gum disease (Periodontal Disease)"
+  },
+  { "categoryName": "DENTAL", "subCategory": "Cavities (Dental Caries)" },
+  { "categoryName": "DENTAL", "subCategory": "Dental Veneers" },
+  {
+    "categoryName": "DENTAL",
+    "subCategory": "Malocclusion (Misaligned Teeth)"
+  },
+  { "categoryName": "DENTAL", "subCategory": "Dental Implants" },
+  { "categoryName": "DENTAL", "subCategory": "Tooth Sensitivity" },
+  { "categoryName": "DENTAL", "subCategory": "Tooth Loss" },
+  { "categoryName": "DENTAL", "subCategory": "Oral Cancer" },
+  { "categoryName": "DENTAL", "subCategory": "Preventive Care" },
+  { "categoryName": "AESTHETIC TREATMENTS", "subCategory": "Kybella" },
+  {
+    "categoryName": "AESTHETIC TREATMENTS",
+    "subCategory": "Laser Hair Removal"
+  },
+  { "categoryName": "AESTHETIC TREATMENTS", "subCategory": "Facials Glow" },
+  { "categoryName": "AESTHETIC TREATMENTS", "subCategory": "Dermal Fillers" },
+  {
+    "categoryName": "AESTHETIC TREATMENTS",
+    "subCategory": "Sculptra Aesthetic"
+  },
+  {
+    "categoryName": "AESTHETIC TREATMENTS",
+    "subCategory": "Intense Pulsed Light (IPL) and Photo facials"
+  },
+  {
+    "categoryName": "AESTHETIC TREATMENTS",
+    "subCategory": "Skin Rejuvenation"
+  },
+  {
+    "categoryName": "AESTHETIC TREATMENTS",
+    "subCategory": "Botox and Dysport"
+  },
+  { "categoryName": "AESTHETIC TREATMENTS", "subCategory": "Diamond Glow" },
+  {
+    "categoryName": "AESTHETIC TREATMENTS",
+    "subCategory": "Radiofrequency with Microneedling"
+  },
+  {
+    "categoryName": "PSYCHIATRY",
+    "subCategory": "Post-Traumatic Stress Disorders (PTSD)"
+  },
+  { "categoryName": "PSYCHIATRY", "subCategory": "Anxiety Disorders" },
+  { "categoryName": "PSYCHIATRY", "subCategory": "Eating Disorders" },
+  { "categoryName": "PSYCHIATRY", "subCategory": "Schizophrenia" },
+  { "categoryName": "PSYCHIATRY", "subCategory": "Depression" },
+  { "categoryName": "PSYCHIATRY", "subCategory": "Bipolar Disorders" },
+  {
+    "categoryName": "PSYCHIATRY",
+    "subCategory": "Attention-Deficit/Hyperactivity Disorders (ADHD)"
+  },
+  {
+    "categoryName": "LUNGS",
+    "subCategory": "Interstitial Lung Disease (ILDS)"
+  },
+  { "categoryName": "LUNGS", "subCategory": "Asthma" },
+  { "categoryName": "LUNGS", "subCategory": "Pneumonia" },
+  { "categoryName": "LUNGS", "subCategory": "Lung Cancer" },
+  {
+    "categoryName": "LUNGS",
+    "subCategory": "Chronic Obstructive Pulmonary Disease (COPD)"
+  },
+  { "categoryName": "UROLOGY", "subCategory": "Shock Wave Lithotripsy" },
+  {
+    "categoryName": "UROLOGY",
+    "subCategory": "Urologic Reconstructive Surgery"
+  },
+  {
+    "categoryName": "UROLOGY",
+    "subCategory": "Percutaneous Nephrolithotripsy"
+  },
+  { "categoryName": "UROLOGY", "subCategory": "TURP" },
+  { "categoryName": "UROLOGY", "subCategory": "Radical Prostatectomy" },
+  { "categoryName": "UROLOGY", "subCategory": "Kidney Biopsy" },
+  {
+    "categoryName": "GASTROENTROLOGY",
+    "subCategory": "Gastroesophageal Reflux Disease (GERD)"
+  },
+  { "categoryName": "GASTROENTROLOGY", "subCategory": "Pancreatic Disorders" },
+  { "categoryName": "GASTROENTROLOGY", "subCategory": "Liver Diseases" },
+  {
+    "categoryName": "GASTROENTROLOGY",
+    "subCategory": "Inflammatory Bowel Disease (IBD)"
+  },
+  {
+    "categoryName": "GASTROENTROLOGY",
+    "subCategory": "Irritable Bowel Syndrome (IBS)"
+  },
+  {
+    "categoryName": "GASTROENTROLOGY",
+    "subCategory": "Gallbladder And Biliary Tract Disorders"
+  },
+  { "categoryName": "GASTROENTROLOGY", "subCategory": "Peptic Ulcer Disease" },
+  { "categoryName": "NEUROLOGY", "subCategory": "Headaches And Migraines" },
+  { "categoryName": "NEUROLOGY", "subCategory": "Epilepsy" },
+  { "categoryName": "NEUROLOGY", "subCategory": "Multiple Sclerosis (MS)" },
+  { "categoryName": "NEUROLOGY", "subCategory": "Peripheral Neuropathy" },
+  {
+    "categoryName": "NEUROLOGY",
+    "subCategory": "Alzheimer's Disease And Other Dementia"
+  },
+  { "categoryName": "NEUROLOGY", "subCategory": "Stroke" },
+  { "categoryName": "NEUROLOGY", "subCategory": "Parkinson's Disease" },
+  {
+    "categoryName": "FERTILITY",
+    "subCategory": "In Vitro Fertilization (IVF)"
+  },
+  {
+    "categoryName": "FERTILITY",
+    "subCategory": "PDG (Preimplantation Genetic Diagnosis) for Gender Selection"
+  },
+  {
+    "categoryName": "FERTILITY",
+    "subCategory": "STEM CELL THERAPY in Ovarian Rejuvenation"
+  },
+  {
+    "categoryName": "FERTILITY",
+    "subCategory": "Intracytoplasmic Sperm Injection (ICSI)"
+  },
+  {
+    "categoryName": "FERTILITY",
+    "subCategory": "STEM CELL THERAPY – Testicular Perfusion (Azoospermia)"
+  },
+  {
+    "categoryName": "FERTILITY",
+    "subCategory": "Intrauterine Insemination (IUI)"
+  },
+  { "categoryName": "FERTILITY", "subCategory": "STEM Erectile Dysfunction" },
+  {
+    "categoryName": "FERTILITY",
+    "subCategory": "PGT/PGS (Preimplantation Genetic Testing/Screening) for Gender"
+  },
+  {
+    "categoryName": "NEPHROLOGY",
+    "subCategory": "Chronic Kidney Disease (CKD)"
+  },
+  {
+    "categoryName": "NEPHROLOGY",
+    "subCategory": "Polycystic Kidney Disease (PKD)"
+  },
+  { "categoryName": "NEPHROLOGY", "subCategory": "Glomerulonephritis" },
+  { "categoryName": "NEPHROLOGY", "subCategory": "Acute Kidney Injury (AKI)" },
+  { "categoryName": "NEPHROLOGY", "subCategory": "Kidney Stones" },
+  {
+    "categoryName": "NEPHROLOGY",
+    "subCategory": "Urinary Tract Infections (UTIs)"
+  },
+  { "categoryName": "NEPHROLOGY", "subCategory": "Nephrotic Syndrome" },
+  { "categoryName": "E.N.T", "subCategory": "Ear Infection (OTITIS MEDIA)" },
+  {
+    "categoryName": "E.N.T",
+    "subCategory": "Dysphagia (DIFFICULTY SWALLOWING)"
+  },
+  { "categoryName": "E.N.T", "subCategory": "Cholesteatoma" },
+  { "categoryName": "E.N.T", "subCategory": "Corrective Breathing Surgery" },
+  { "categoryName": "E.N.T", "subCategory": "Tonsil Removal (Tonsillectomy)" },
+  { "categoryName": "E.N.T", "subCategory": "Dizziness" },
+  { "categoryName": "E.N.T", "subCategory": "Snoring/Sleep Disorder Surgery" },
+  { "categoryName": "E.N.T", "subCategory": "Sinus Surgery" },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Atherectomy"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Bypass Surgery"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Cardiac Valve Replacement"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Heart Failure"
+  },
+  { "categoryName": "CARDIOVASCULAR & METABOLIC", "subCategory": "Arrhythmia" },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Cardiomyoplasty"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Angioplasty"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Stent Placement"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "High Cholesterol"
+  },
+  { "categoryName": "CARDIOVASCULAR & METABOLIC", "subCategory": "Angina" },
+  { "categoryName": "CARDIOVASCULAR & METABOLIC", "subCategory": "Obesity" },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Coronary Artery Bypass Grafting (CABG)"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Angiography"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Coronary Heart Disease (CHD)"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Hypertension"
+  },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Cardiac Infections"
+  },
+  { "categoryName": "CARDIOVASCULAR & METABOLIC", "subCategory": "Diabetes" },
+  {
+    "categoryName": "CARDIOVASCULAR & METABOLIC",
+    "subCategory": "Pacemaker Implantation Surgery"
+  }
+]
